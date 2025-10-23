@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import FirstComponent from './components/FirstComponent.js'
+import TemplateExpression from './components/TemplateExpression.js'
+import MyComponent from './components/MyComponent.js';
+import Event from './components/Event.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Fundamentos do React</h1>
+      <FirstComponent />
+      <TemplateExpression />
+      <MyComponent />
+      <Event />
+      <p className="Copy">Desenvolvido por Rafael &copy; 2025</p>
     </div>
   );
 }
