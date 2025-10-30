@@ -1,0 +1,62 @@
+# Visual Studio solution files and folders
+*.suo
+*.user
+*.bak
+*.ncb
+*.pdb
+*.obj
+*.log
+*.vspscc
+*.vssscc
+*.scc
+*.vsmdi
+*.vsmacros
+*.vsw
+*.code-workspace
+*.sln.docstates
+
+# Build artifacts
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.ilk
+*.idb
+*.lib
+*.exp
+*.res
+*.pch
+*.ipch
+*.aps
+*.manifest
+*.tlb
+*.tlh
+*.tli
+*.tmp
+*.vsix
+*.vsp
+*.cache
+*.sdf
+*.opensdf
+*.docstates
+
+# Visual Studio Code specific files
+.vscode/
+.vs/
+
+# Package Management
+packages/
+*.nupkg
+project.lock.json
+
+# Resharper and other extensions
+*.DotSettings
+*.userprefs
+_ReSharper.*/
+
+# Test results
+TestResults/
+
+# Miscellaneous
+Thumbs.db
+Desktop.ini
